@@ -1,0 +1,28 @@
+{
+  "name": "protected",
+  "version": "1.0.0",
+  "description": "Emulating protected attributes in JS/TS",
+  "main": "index.js",
+  "scripts": {
+    "build": "tsc",
+    "format": "prettier --write 'src/**/*.{js,ts}'",
+    "lint": "eslint 'src/**/*.{js,ts}'",
+    "start": "ts-node src/index.ts",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Federico Kereki",
+  "license": "ISC",
+  "devDependencies": {
+    "@eslint/js": "^9.10.0",
+    "@typescript-eslint/eslint-plugin": "^8.4.0",
+    "@typescript-eslint/parser": "^8.4.0",
+    "eslint": "^9.10.0",
+    "eslint-config-prettier": "^9.1.0",
+    "eslint-plugin-prettier": "^5.2.1",
+    "globals": "^15.9.0",
+    "prettier": "^3.3.3",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.5.4",
+    "typescript-eslint": "^8.4.0"
+  }
+}
